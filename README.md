@@ -8,9 +8,12 @@
 7. Использовать font-awesome
 
 # Дополнительные св-ва:
-
-
-Для автоматических метатегов:
+```xsl
+<xsl:value-of select="property_value[tag_name='email']/value"/>
+<a href="{dir}{property_value[tag_name='file']/file}" target="_blank">Скачать <xsl:value-of select="property_value[tag_name='file']/file_name"/></a>
+<a href="{dir}{property_value[tag_name='file']/file}" target="_blank"><img src="{dir}{property_value[tag_name='file']/file_small}" /></a>
+```
+# Для автоматических метатегов:
 ```html
 <meta charset="<?php echo SITE_CODING?>">
 <title><?php Core_Page::instance()->showTitle()?></title>
