@@ -12,6 +12,7 @@
 
 Для автоматических метатегов:
 ```
+tmp = "Html"
 <meta charset="<?php echo SITE_CODING?>">
 <title><?php Core_Page::instance()->showTitle()?></title>
 <meta name="description" content="<?php Core_Page::instance()->showDescription()?>">
