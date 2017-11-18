@@ -1,5 +1,4 @@
 # pippets.github.io
-Мои наработки
 1. Стили для повторяющихся частей макета
 2. Bootstrap, material designe
 3. Css препроцессор (например sass)
