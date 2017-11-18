@@ -32,15 +32,15 @@
 # Вывод названия страницы
 ```php
 <?php 
-$oBook = Core_Entity::factory('Structure', 88);
-echo "<p>" . $oBook->name . "</p>";
+	$oBook = Core_Entity::factory('Structure', 88);
+	echo "<p>" . $oBook->name . "</p>";
 ?>
 ```
 # Вывод документа
 ```php
-	<?php
-Core_Entity::factory('Document', 10)->execute();
-Core_Page::instance()->execute();
+<?php
+	Core_Entity::factory('Document', 10)->execute();
+	Core_Page::instance()->execute();
 ?>
 ```
 # Ссылки
