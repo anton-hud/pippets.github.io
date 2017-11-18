@@ -25,3 +25,23 @@
 ```php
 <? php $this->showSection('ИМЯ_ВИДЖЕТА'); ?>
 ```
+# Вывод Title
+```php
+<?php Core_Page::instance()->showTitle()?>
+```
+# Вывод названия страницы
+```php
+<?php 
+$oBook = Core_Entity::factory('Structure', 88);
+echo "<p>" . $oBook->name . "</p>";
+?>
+```
+# Вывод документа
+```php
+	<?php
+Core_Entity::factory('Document', 10)->execute();
+Core_Page::instance()->execute();
+?>
+```
+# Ссылки
+[вывод в php объектов](http://www.hostcms.ru/documentation/modules/core/orm/)
