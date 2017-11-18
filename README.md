@@ -11,9 +11,10 @@
 
 
 Для автоматических метатегов:
-
+```
 <meta charset="<?php echo SITE_CODING?>">
 <title><?php Core_Page::instance()->showTitle()?></title>
 <meta name="description" content="<?php Core_Page::instance()->showDescription()?>">
 <meta name="keywords" content="<?php Core_Page::instance()->showKeywords()?>">
 <meta name="author" content="Ваше имя">
+```
