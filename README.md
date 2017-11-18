@@ -21,3 +21,7 @@
 <meta name="keywords" content="<?php Core_Page::instance()->showKeywords()?>">
 <meta name="author" content="Ваше имя">
 ```
+# Вставить виджет
+```php
+<? php $this->showSection('ИМЯ_ВИДЖЕТА'); ?>
+```
